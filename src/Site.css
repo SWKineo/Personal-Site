@@ -1,0 +1,130 @@
+:root {
+  --primary-color: #355240;
+  --secondary-color: #5C2A0D;
+}
+
+.Site {
+  text-align: center;
+  font-family: 'Petrona';
+  color: var(--primary-color);
+  height: 100vh;
+  width: 100vw;
+}
+
+
+
+.Basic-design {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Basic-design-text-main {
+  font-size: 3em;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.Basic-design-text-sub {
+  font-size: 1em;
+  color: var(--secondary-color);
+}
+
+.Basic-design-divider {
+  width: 20em;
+  height: 3px;
+  background-color: var(--secondary-color);
+}
+
+
+
+.Me {
+  position: fixed;
+  right: 6vh;
+  bottom: 6vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.Me-name {
+  margin-block-start: 0.1em;
+  margin-block-end: 0.1em;
+  font-size: 1.3em;
+}
+
+.Me-face {
+  right: 0;
+  margin-bottom: 7%;
+  scale: 0.7;
+}
+
+
+
+.Me-centered {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.Me-name-centered {
+  margin-block-start: 0.1em;
+  margin-block-end: 0.1em;
+  font-size: 1.3em;
+}
+
+.Me-face-centered {
+  margin-top: -4%;
+  margin-right: 3%;  
+  scale: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Site-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Site-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Site-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Site-link {
+  color: #61dafb;
+}
+
+@keyframes Site-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
